@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import SingleHoliday from './SingleHoliday';
-const url = 'https://mocki.io/v1/ee2ffa96-c6b4-4bf6-96e1-ac64f2d9a27f';
+const url = 'https://mocki.io/v1/d7f9392e-34e8-4cb3-b4f2-d5bf389aa880';
 
 const Holiday = () => {
   const [data, setData] = useState([]);
