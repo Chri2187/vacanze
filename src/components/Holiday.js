@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import SingleHoliday from './SingleHoliday';
-const url = 'https://react-corso-api.netlify.app/.netlify/functions/holiday';
+const url = 'https://mocki.io/v1/ee2ffa96-c6b4-4bf6-96e1-ac64f2d9a27f';
 
 const Holiday = () => {
   const [data, setData] = useState([]);
